@@ -128,7 +128,6 @@ class ReviewSession:
 
     def next_picture(self, event):
         '''Move picture to reviewed pictures directory.'''
-        print(event)
         move(self.pictures[self.picture],
              join_path(
                  self.root_directory, self.directories['reviewed'],
