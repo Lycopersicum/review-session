@@ -61,7 +61,9 @@ class ReviewSession:
                 makedirs(join_path(self.root_directory,
                                    self.directories[directory]))
 
-        self.pictures = find_pictures(root_directory, settings['extentions'])
+        self.pictures = find_pictures(root_directory,
+                                      settings['extentions'],
+                                      level=settings['level'])
         self.initialise_tk()
 
     def initialise_tk(self):

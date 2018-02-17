@@ -11,6 +11,7 @@ def main():
     settings = {
         'extentions': ['jpeg', 'jpg', 'png'],
         'size': [432, 432],
+        'level': 0,
     }
 
     session = ReviewSession(root_directory, directories, settings)

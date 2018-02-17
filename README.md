@@ -20,6 +20,7 @@ for Debian based distributions (Debian, Ubuntu):
 - ```settings```: _Dictionary_, which contains following keys and values:
 -    ```extentions```: _List_, which should contain extentions that you would want to preview.
 -    ```size```: _List_, which contains width and height limits (Maximum size that picture would take).
+-    ```level```: _Integer_, which contains value, how deep it would search for pictures __(0 if search only at ```root_directory```)__.
     
 ### Keyboard shortcuts:
 
