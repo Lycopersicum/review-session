@@ -31,7 +31,7 @@ def find_pictures(root_path, extentions, level=0):
         if check_level(root_path, dirpath) <= level:
             for filename in filter_extentions(filenames, extentions):
                 pictures_list.append(join_path(dirpath, filename))
-    return pictures_list
+    return sorted(pictures_list)
 
 def get_tk_image(path, size, angle=0):
     '''Return resized Tkinter.PhotoImage image object from pathname.'''
