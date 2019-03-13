@@ -8,7 +8,7 @@ Review session is Python module dedicated for reviewing pictures and moving them
 Currently ```PIL``` and ```tkinter``` are used on my project, you can get it with pip:
 ```$ sudo pip3 install pillow python-tk```
 for Debian based distributions (Debian, Ubuntu):
-```$ sudo apt-get install python3-tk python3-pil```
+```$ sudo apt-get install python3-tk python3-pil python3-pil.imagetk```
 
 ### Setup explanations
 
